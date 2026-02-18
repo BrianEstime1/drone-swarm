@@ -1,6 +1,7 @@
 """
 Formation Base Class
 ====================
+"""
 
 import math
 
