@@ -4,16 +4,7 @@ Swarm Controller - The BRAIN
 
 This is the main coordinator that makes everything work together!
 
-Think of it like the coach of a basketball team:
-- Keeps track of all players (drones)
-- Calls the plays (formations)
-- Makes sure everyone's healthy (safety checks)
-- Coordinates movement (maintains formation)
 
-It uses EVERYTHING we built:
-- gps_math.py → Calculate where drones should go
-- drone_state.py → Track each drone's status
-- formations → Know the pattern to maintain
 """
 
 import time
