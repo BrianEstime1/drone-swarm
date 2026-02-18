@@ -2,14 +2,6 @@
 GPS Math Utilities for Drone Swarm
 ===================================
 
-This file is the "calculator" for converting between:
-- Meters (how humans think: "5 meters north")
-- GPS degrees (how GPS thinks: "28.0000449 degrees latitude")
-
-Think of GPS coordinates like a grid on a map:
-- Latitude = How far north/south (like street numbers)
-- Longitude = How far east/west (like avenue numbers)
-"""
 
 import math
 
@@ -70,7 +62,7 @@ def meters_to_lon_offset(meters, latitude):
 
 def offset_gps_position(origin_lat, origin_lon, north_m, east_m):
     """
-    THE MAIN FUNCTION - This is what we'll use all the time!
+    THE MAIN FUNCTION - 
     
     Given a starting GPS position and meter offsets, calculate new GPS position.
     
