@@ -2,19 +2,6 @@
 Formation Base Class
 ====================
 
-This is the "template" for all formation patterns.
-
-Think of it like a blueprint - we'll use this to create:
-- Triangle formation
-- Line formation  
-- V formation (later)
-- Circle formation (later)
-- Whatever cool patterns you dream up!
-
-All formations share the same basic idea:
-"Where should each drone be relative to the leader?"
-"""
-
 import math
 
 
@@ -104,8 +91,6 @@ class Formation:
         the followers should rotate to maintain the formation
         relative to the leader's direction.
         
-        This is ADVANCED - we'll implement it later when we want
-        formations to maintain their shape regardless of direction.
         
         Args:
             heading_deg: Heading in degrees (0 = North, 90 = East)
@@ -131,7 +116,7 @@ class Formation:
         """
         Print a simple ASCII visualization of the formation
         
-        This helps you see what the formation looks like!
+        This helps  see what the formation looks like!
         """
         print(f"\n{self.__class__.__name__} (spacing: {self.spacing}m)")
         print("=" * 50)
