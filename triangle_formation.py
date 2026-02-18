@@ -13,7 +13,7 @@ Shape looks like this (top view):
 
 The leader is at the front, followers form the base of the triangle behind.
 
-This is PERFECT for:
+This is for:
 - Following a leader
 - Visual demos (looks cool!)
 - Maximum visibility (drones can see each other)
@@ -33,7 +33,6 @@ class TriangleFormation(Formation):
     - Drone 3 at (-spacing, +spacing*0.866, 0)  # Back-right
     
     Why 0.866? That's sqrt(3)/2, which makes an equilateral triangle!
-    (You don't need to understand the trig, just trust it works)
     """
     
     def __init__(self, spacing_meters=5.0):
