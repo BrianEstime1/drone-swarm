@@ -1,6 +1,7 @@
 """
 Line Formation
 ===============
+"""
 
 Simple follow-the-leader formation
 
