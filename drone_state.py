@@ -2,17 +2,6 @@
 Drone State - The "Notebook" for One Drone
 ==========================================
 
-This class is like a notebook that keeps track of EVERYTHING about one drone:
-- Where is it? (GPS position)
-- How much battery does it have?
-- Is it flying or on the ground?
-- What's it supposed to be doing?
-
-Think of it like a player card in a video game - all the stats in one place.
-
-We'll make 3 of these (one for each drone in your swarm).
-"""
-
 import time
 from enum import Enum
 
@@ -241,7 +230,7 @@ class DroneState:
 
 def test_drone_state():
     """
-    Create some fake drones and test all the functions
+    Creating fake drones and testing all the functions
     
     This simulates what will happen when real data comes in
     """
