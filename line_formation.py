@@ -10,7 +10,7 @@ Shape looks like this (top view):
 
 All drones fly in a straight line, one behind the other.
 
-This is PERFECT for:
+This is for:
 - Narrow spaces
 - Simple testing
 - Maximum safety (drones far apart)
